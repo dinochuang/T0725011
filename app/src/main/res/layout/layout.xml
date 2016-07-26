@@ -9,12 +9,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:layout_weight="0.33" />
+        android:layout_weight="0.33"
+        android:id="@+id/textView2"
+        android:text="0~100" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="64dp"
-        android:text="New Button"
-        android:layout_weight="0.73" />
+        android:text="取亂數"
+        android:layout_weight="0.73"
+        android:id="@+id/button8" />
 </LinearLayout>
