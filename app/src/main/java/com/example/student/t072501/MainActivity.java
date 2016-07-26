@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setMultiChoiceItems(sweets, b, new DialogInterface.OnMultiChoiceClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which, boolean isChecked) {
-                b[which] = isChecked;
+               // b[which] = isChecked;
             }
         });
 
